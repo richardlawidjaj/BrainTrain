@@ -15,7 +15,7 @@ namespace HackerRankTest.Algorithm
 
             var result = CompareTheTriplets.CompareTriplets(alice, bob);
             Assert.IsTrue(result.Count == 2);
-            Assert.IsTrue(result[0] == 2);
+            Assert.IsTrue(result[0] == 1);
 
         }
     }
